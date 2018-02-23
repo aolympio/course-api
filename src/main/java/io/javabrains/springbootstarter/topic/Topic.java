@@ -12,9 +12,9 @@ public class Topic {
 		this.description = description;
 	}
 
-	public String id;
-	public String name;
-	public String description;
+	private String id;
+	private String name;
+	private String description;
 
 	public String getId() {
 		return id;
